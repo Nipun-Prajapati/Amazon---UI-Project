@@ -1,0 +1,330 @@
+*
+{
+    /* It is make easy to css */
+    margin : 0 ;
+    font-family : Arial ;
+    /* It is make easy to css */
+    border-style : border-box ; 
+    /* border size or width included in element height and width */
+}
+
+.navbar
+{
+    height : 60px ;
+    /*Width can't define because we give a full page of width.*/
+    background-color: black;
+    color : white ;
+    display: flex;
+    align-items: center;
+    justify-content :space-around ;
+}
+
+.nav-logo
+{
+    height: 50px ;
+    width: 115px ;
+}
+.logo
+{
+    background-image: url("Amazon-logo.jpg");
+    background-size: cover ;
+    height : 50px ;
+    width : 100% ;
+
+}
+
+.border
+{
+    border : 1.5px solid transparent ;
+}
+
+.border:hover
+{
+    border: 1.5px solid white;
+}
+
+.add-first
+{
+    font-size : 14px ;
+}
+.add-second
+{
+    font-size : 16px;
+    font-weight: bold;
+}
+
+.add-icon
+{
+    display: flex;  
+}
+
+.nav-address
+{
+    margin-left: 10px ;
+}
+
+.nav-search
+{
+    display : flex ;
+    height : 40px ;
+}
+
+.nav-search:hover
+{
+    border : 2px solid chocolate ;
+    border-radius: 10px;
+}
+
+.search-icon
+{
+    background-color :chocolate;
+    height : 40px ;
+    width : 50px ;
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius : 10px;
+    border : none ;
+    font-size : 20px ;
+}
+
+.search-input
+{
+    width : 400px;
+    border : none ;
+    font-size : 20px ;
+    text-align: center ;
+}
+
+.search-select
+{
+    background-color: #f3f3f3; 
+    width :50px ; 
+    text-align : center ;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px;
+    border : none ;
+}
+
+span
+{
+    font-size: 13px ;
+}
+
+.nav-account
+{
+    font-weight: bold;
+}
+
+.nav-cart
+{
+    font-size : 30px ;
+    display: flex;
+}
+
+.cart 
+{
+    font-size: 15px ;
+    font-weight: bold;
+    text-align :center;
+    margin-top : 10px ;
+}
+
+.panel
+{
+    display : flex ;
+    height : 40px ;
+    background-color: #222f3d;
+    color :aliceblue;
+    align-items : center ;
+    
+}
+
+.menu-icon
+{
+    margin-left: 40px ;
+    font-size: 20px ;
+    display: flex;
+}
+
+.electronics
+{
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 550px;
+}
+
+.all
+{
+    font-weight: bold;
+}
+
+.option
+{
+    margin-left: 20px ;
+}
+
+.hero-section
+{
+    background-image: url("Main1.jpg");
+    height : 300px ;
+    background-size: cover;
+    display: flex;
+    justify-content: center ;
+    align-items :end ;
+}
+
+.hero-message
+{
+    height : 40px ;
+    background-color: white;
+    margin-bottom: 30px ;
+}
+
+.shop-section
+{
+    display: flex;
+    background-color: rgb(218, 213, 164);
+    flex-wrap: wrap;
+}
+.box
+{
+    border : 2px solid black;
+    height: 400px ;
+    width : 310px ;
+    margin-left: 20px ;
+    margin-top: 20px ;
+    background-color: white;
+    text-align: center ;
+}
+
+.imag1
+{
+    background-image: url("Smart_watch.jpg");   
+    height: 300px ;
+    width : 310px ;
+    background-size: cover;
+}
+
+.imag2
+{
+    background-image: url("Macbook_Air_13.jpg");
+    height: 300px ;
+    width : 310px ;
+    background-size:contain ;
+    background-repeat: no-repeat;
+    margin-top: 10px ;
+}
+
+.imag3
+{
+    background-image: url("Fitness_Journey.jpg");
+    height: 300px ;
+    width : 310px ;
+    background-size: cover ;
+}
+
+.imag4
+{
+    background-image: url("Dress1.jpg");
+    height: 300px ;
+    width: 310 px ;
+    background-size: cover;
+    justify-content: center;
+}
+
+.imag5
+{
+    background-image: url("Bed_sheet.jpg");
+    height: 300px ;
+    width: 310px ;
+    background-size: cover ;
+    justify-content: center ;
+}
+
+.imag6
+{
+    background-image: url("Turmeric_clay_mask.jpg");
+    height: 300px ;
+    width: 310px ;
+    background-size: cover;
+    justify-content: center ;
+}
+
+.imag7
+{
+    background-image: url("Mens_Suits.jpg");
+    height: 300px ;
+    width: 310px ;
+    background-size: cover;
+    justify-content: center ;
+}
+.imag8
+{
+    background-image: url("Google_Pixel_7.jpg");
+    height: 300px ;
+    width: 310 ;
+    background-size: cover;
+    justify-content: center;
+}
+
+.fot-panel
+{
+    height: 50px ;
+    background-color: #0f1111;
+    font-size: 20px ;
+    color : whitesmoke ;
+    text-decoration:none;
+}
+
+.footer-section
+{
+    margin-top: 20px ;
+    background-color: #222f3d;
+    height: 100px ;
+    color: #f3f3f3;
+    font-size: 20px  
+}
+
+.footer-company
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center ; 
+}
+
+p
+{
+  text-align: center ;
+}
+
+.back
+{
+    margin-left: 45% ;
+    font-size: 30px ;
+}
+
+.footer-panel2
+{
+    height: 30px ;
+    background-image: url("Amazon-logo.jpg");
+    height: 50px ;
+    width: 100px ;
+    background-size: cover ;
+    display: flex ;
+}
+
+.footer-logo
+{
+    height : 60px ;
+    background-color: black;
+}
+
+.footer-image
+{
+    height: 50px ;
+    width: 120px ;
+    background-image: url("Amazon-logo.jpg");
+    background-size: cover ;
+    justify-content: center ;
+    margin-left: 48% ;
+}
